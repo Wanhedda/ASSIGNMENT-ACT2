@@ -1,0 +1,69 @@
+/*
+Create a program that will accept integer values for month,
+day, and year and then output the “long version” of the
+specified date.
+
+sample output:
+Enter month: 11
+Enter day: 5
+Enter year: 2010
+November 5, 2010
+*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int month, day, year, birth;
+
+cout << "Please enter numerical value of the date" << endl;
+cout << "Enter month: " << endl;
+cin >> month ;
+cout << "Enter day: " << endl;
+cin >> day ;
+cout << "Enter year: " << endl;
+cin >> year ;
+
+switch (month)
+	{
+   	case  1 :
+  		cout << "January " << day << ", " << year << endl;
+		break ;
+	case  2 :
+  		cout << "February " << day << ", " << year << endl;
+		break ;
+	case  3 :
+  		cout << "March " << day << ", " << year << endl;
+		break ;
+	case  4 :
+  		cout << "April " << day << ", " << year << endl;
+		break ;
+	case  5 :
+  		cout << "May " << day << ", " << year << endl;
+		break ;
+	case  6 :
+  		cout << "June " << day << ", " << year << endl;
+		break ;
+	case  7 :
+  		cout << "July " << day << ", " << year << endl;
+		break ;
+	case  8 :
+  		cout << "August " << day << ", " << year << endl;
+		break ;
+	case  9 :
+  		cout << "September " << day << ", " << year << endl;
+		break ;
+	case  10 :
+  		cout << "October " << day << ", " << year << endl;
+		break ;
+	case  11 :
+  		cout << "November " << day << ", " << year << endl;
+		break ;
+	case  12 :
+  		cout << "December " << day << ", " << year << endl;
+		break ;
+													
+	}
+return 0;
+}
